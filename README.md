@@ -1,395 +1,293 @@
 </> Markdown
 
-# Cognitive OS Model
+# 思考アルゴリズム骨格論
+# Thought Algorithm Skeleton Theory
 
-## Cognitive OS Middleware Concept
+## 認知OS動的構造モデル
+## Cognitive OS Dynamic Structure Model
 
 ---
 
 ## Overview
 
-Cognitive OS Model is a conceptual framework for optimizing information connection between different cognitive states.
+思考アルゴリズム骨格論（Thought Algorithm Skeleton Theory）は、
 
-The system does not classify people by personality, ability, or fixed type.
+人格分類や能力評価を目的としたモデルではなく、
 
-Instead, it focuses on:
+**認知アルゴリズムの状態遷移と構造更新過程を理解するためのモデルです。**
 
-- how information is processed under specific conditions
-- how cognitive states change through input
-- how information presentation can be adjusted to reduce connection friction
+本理論は、人間や知性システムが、
 
-The core idea is:
+- どのように情報を処理するか
+- どのように構造を更新するか
+- どのように意味を生成するか
 
-> Information itself is not always the problem.
-> The connection format between information and the receiver can determine understanding and action.
-
----
-
-# Problem
-
-Current AI systems generally operate through:
-
-
-Input Information
-
-↓
-
-Knowledge Retrieval
-
-↓
-
-Information Output
-
-
-This approach is highly effective for information retrieval and generation.
-
-However, difficulties can occur when:
-
-- the user cannot determine what information is needed
-- the information is correct but difficult to apply
-- too much information creates cognitive load
-- explanations do not match the user's current processing state
-
-The challenge is not only generating correct information.
-
-The challenge is:
-
-> How should information be connected to different cognitive conditions?
+という動的な過程を観測・モデル化することを目的としています。
 
 ---
 
-# Cognitive OS Approach
+# 基本理念
 
-Cognitive OS introduces an intermediate layer:
+世界は、最初から意味を用意しているわけではない。
 
+しかし人間は、経験や関係性の中から意味を生成してきた。
 
-Environment
+骨格論は、この**意味生成能力**を知性の重要な要素として尊重します。
 
-↓
+骨格論は、人を変えるための理論ではありません。
 
-Observation
-
-↓
-
-Cognitive State Hypothesis
-
-↓
-
-Information Translation
-
-↓
-
-Output
-
-↓
-
-Feedback
-
-
-The system observes changes in response patterns,
-generates temporary hypotheses,
-and designs an appropriate input format.
+人が自身の認知構造を理解し、
+自ら更新できる環境を設計するための理論です。
 
 ---
 
-# Architecture
+# Core Concept
 
-## 1. Observation Probe
+## 認知OS動的構造モデル
 
-### Purpose
+骨格論では、認知を固定的な性質ではなく、環境との相互作用によって変化する動的システムとして扱います。
 
-Collect observable changes caused by different input conditions.
-
-Examples:
-
-- reaction changes
-- stopping points
-- information requirements
-- stable conditions
-- overload conditions
-
-Output:
-
-Observation Model
-
----
-
-## 2. Hypothesis Engine
-
-### Purpose
-
-Generate temporary hypotheses about cognitive processing states.
-
-Important:
-
-These are not personality classifications.
-
-They represent:
-
-- possible processing tendencies
-- state-dependent responses
-- information connection conditions
-
-Output:
-
-Cognitive State Hypothesis
+```
+環境刺激
+    ↓
+注意OS
+    ↕
+感情OS
+    ↕
+処理資源管理
+    ↕
+思考OS
+    ↕
+意味生成システム
+    ↓
+行動・言語・創作
+    ↓
+環境フィードバック
+```
 
 ---
 
-## 3. Translation Engine
+# 思考OS基本アルゴリズム
 
-### Purpose
+思考OSは以下の循環過程としてモデル化されます。
 
-Transform information presentation format according to the current hypothesis.
+```
+観察
+ ↓
+制約抽出
+ ↓
+責務分離
+ ↓
+構造生成
+ ↓
+仮収束
+ ↓
+再探索
+ ↓
+再構成
+```
 
-The content itself is not necessarily changed.
-
-Possible transformations:
-
-- information order
-- abstraction level
-- information amount
-- choice structure
-- action initiation design
-
-Output:
-
-Optimized Input Format
-
----
-
-# Core Principle
-
-Cognitive OS does not attempt to answer:
-
-"What kind of person is this?"
-
-Instead, it asks:
-
-"Under this condition, what kind of information connection is likely to work better?"
+これは単一の答えを求める処理ではなく、
+状況に応じて構造を更新し続ける過程を表します。
 
 ---
 
 # Design Principles
 
-## No Fixed Classification
+## 1. 人格分類ではない
 
-The system does not create permanent categories of people.
+骨格論のパラメータは人格や能力を分類するものではありません。
 
----
-
-## Hypothesis-Based
-
-All outputs are treated as temporary hypotheses.
+認知アルゴリズムの処理傾向を観測するための指標です。
 
 ---
 
-## Feedback Updating
+## 2. 固定化しない
 
-New observations can modify or discard previous hypotheses.
+認知状態は、
 
----
+- 環境
+- 目的
+- 感情状態
+- 疲労
+- 利用可能な処理資源
 
-## Multiple Possibilities
+によって変化します。
 
-A single behavior is not assigned to one cause.
-
----
-
-# Experimental Prototype
-
-A manual MVP evaluation has been conducted using AI response comparison.
-
-Comparison:
-
-
-Condition A
-
-Normal LLM Response
-
-Condition B
-
-Cognitive OS Applied Response
-
-
-Observed differences:
-
-- same information content with different presentation structures
-- reduced unnecessary information expansion
-- adjustment of abstraction level
-- change from information delivery to state transition support
-
-Test cases included:
-
-- general knowledge questions
-- calculation tasks
-- technical instruction
-- daily problem solving
-- structural analysis questions
+同一人物であっても状態は変化します。
 
 ---
 
-# Initial Findings
+## 3. 理解と操作を分離する
 
-Early observations suggest:
+認知構造を理解することと、
+その構造へ意図的に介入することは別の行為として扱います。
 
-## Low Complexity Tasks
+骨格論は、
 
-The system may reduce unnecessary intervention.
+「相手を望む状態へ変える」
 
-Example:
+ためではなく、
 
-Simple calculation:
+「相手が自身を理解し更新できる環境を作る」
 
-
-Answer only
-
-
-may be preferable to:
-
-
-Answer + extended explanation
-
+ために利用されます。
 
 ---
 
-## Complex Understanding Tasks
+# Repository Structure
 
-The system may improve connection efficiency.
-
-Example:
-
-Technical explanation:
-
-
-Goal
-
-↓
-
-Structure
-
-↓
-
-Procedure
-
-↓
-
-Details
-
-
-may connect better than:
-
-
-Details
-
-↓
-
-Explanation
-
-↓
-
-Application
-
-
-depending on the user's objective.
-
----
-
-# Potential Application Areas
-
-## AI Systems
-
-- AI assistants
-- Enterprise AI
-- AI agents
-- Knowledge systems
-
----
-
-## Education
-
-- Personalized learning support
-- Explanation adaptation
-- Learning process optimization
-
----
-
-## Organizations
-
-- Team communication
-- Knowledge transfer
-- Internal AI adoption
-
----
-
-## UX / Interface Design
-
-- User understanding
-- Adaptive interfaces
-- Information architecture
-
----
-
-# Current Status
-
-Current stage:
-
-Concept validation / Manual MVP
-
-The next research steps include:
-
-- expanding test cases
-- testing with different users
-- separating effective parameters
-- validating transferability across domains
-
----
-
-# Project Structure
-
-
-Cognitive-OS/
-
+```
+.
 ├── README.md
-
-├── Cognitive_OS_Model.md
-
-├── Observation_Probe_Core_v1.0.md
-
-├── Hypothesis_Engine_Core_v1.0.md
-
-└── Translation_Engine_Core_v1.0.md
-
-
----
-
-# Safety Statement
-
-Cognitive OS is not designed for:
-
-- personality judgment
-- ability evaluation
-- human ranking
-- behavioral manipulation
-
-The purpose is:
-
-> Improving information connection between different cognitive conditions.
-
----
-
-# Core Definition
-
-Cognitive OS is a cognitive connection layer that observes state changes, generates temporary hypotheses, and translates information into forms that improve understanding and interaction.
+│
+├── core-model/
+│   ├── core-model.ja.md
+│   └── core-model.en.md
+│
+├── parameter-specification/
+│   ├── parameter-specification.ja.md
+│   └── parameter-specification.en.md
+│
+├── manifesto/
+│   ├── manifesto.ja.md
+│   └── manifesto.en.md
+│
+├── governance/
+│   ├── governance.ja.md
+│   └── governance.en.md
+│
+├── research-notes/
+│
+├── probes/
+│
+└── case-data/
+```
 
 ---
 
-## License
+# Documentation
 
-To be defined.
+## Core Model
+
+認知OS動的構造モデル、
+状態遷移モデル、
+思考OS基本アルゴリズムを定義します。
 
 ---
 
-## Contact
+## Parameter Specification
 
-Research collaboration and discussion are welcome.
+骨格論で使用する観測パラメータを定義します。
+
+主なパラメータ:
+
+- UP : Update Pace
+- CT : Convergence Threshold
+- SR : Structural Retention
+- RF : Reconstruction Flexibility
+- AL : Abstraction Level
+- AU : Automation
+- SA : Semi Automation
+- RA : Resource Allocation
+- PP : Parallel Processing
+- MC : Meta Control
+- TC : Transition Cost
+
+---
+
+## Manifesto
+
+骨格論の価値基準を定義します。
+
+主な原則:
+
+- 意味生成を尊重する
+- 多様性を尊重する
+- 相互理解を尊重する
+- 効率と余白を両立する
+- AIは人間の価値を尊重する
+- 技術には責任が伴う
+
+---
+
+## Governance Framework
+
+骨格論を利用する際の責任・制約・倫理原則を定義します。
+
+主な方針:
+
+- 自律性の尊重
+- 理解と介入の分離
+- 判断過程の透明性
+- 分析結果の所有権
+- 非固定化
+- AIメタ制御
+- 多層外部観測モデル
+
+---
+
+# Scope
+
+骨格論は以下の領域への応用可能性を検討しています。
+
+- 人間認知研究
+- 教育設計
+- AI設計
+- 組織設計
+- ソフトウェア設計
+- ゲーム設計
+- 創作支援
+
+ただし、現在のモデルは継続的な研究・検証対象です。
+
+---
+
+# Research Status
+
+現在の骨格論は、
+
+- 理論モデル構築
+- パラメータ設計
+- Manifesto策定
+- Governance設計
+- 初期観測プロトタイプ
+
+の段階にあります。
+
+今後、
+
+- 観測設計
+- 実験プロトコル
+- ケース記録
+- 第三者検証
+
+を通じて発展させていきます。
+
+---
+
+# License / Usage Policy
+
+本リポジトリ内の内容は、
+認知理解と知性間接続設計を目的として公開されています。
+
+利用時には、
+
+- 人間の自律性を尊重すること
+- 意味生成を保護すること
+- 固定的分類や操作目的で使用しないこと
+
+を基本原則とします。
+
+---
+
+# Vision
+
+骨格論が目指すものは、
+人間を一つの正解へ導くことではありません。
+
+異なる認知構造を持つ存在同士が、
+
+互いの意味生成を尊重しながら、
+
+共に更新され続けるための接続設計です。
