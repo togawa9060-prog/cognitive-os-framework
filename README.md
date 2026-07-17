@@ -1,4 +1,5 @@
 </> Markdown
+
 思考アルゴリズム骨格論
 Thought Algorithm Skeleton Theory
 認知OS動的構造モデル
