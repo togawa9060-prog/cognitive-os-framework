@@ -1,5 +1,3 @@
-</> Markdown
-
 # 思考アルゴリズム骨格論
 # Research Methodology Ver.1
 
