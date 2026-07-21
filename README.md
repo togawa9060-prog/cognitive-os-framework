@@ -148,16 +148,15 @@ Skeleton-Theory/
 │
 ├── Core_Model/
 │   ├── Cognitive_OS_Model_Core.md
-│   └── Parameter Model（Observation Parameters）.md
 │
 ├── Observation_Model/
-│   └── Parameter_Model_Observation_Parameters.md
+│   └── Parameter Model（Observation Parameters）.md
 │
 ├── Manifesto/
-│   └── manifesto_ja.md
+│   └── manifesto.md
 │
 ├── Governance/
-│   └── governance_ja.md
+│   └── governance.md
 │
 ├── Research/
 │   └── research-methodology_ja.md
